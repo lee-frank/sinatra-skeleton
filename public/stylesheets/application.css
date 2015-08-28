@@ -1,81 +1,51 @@
-.container-fluid {
-	background:#f4f7f8;
-	width:55%;
-	margin-top:2%;
-	margin-bottom:2%;
-	padding-bottom:50px;
-	border-radius:10px;
-	/*border:solid #f4f7f8 1px;*/
-	-webkit-box-shadow: 0px 1px 65px -2px rgba(71,65,71,0.64);
-	-moz-box-shadow: 0px 1px 65px -2px rgba(71,65,71,0.64);
-	box-shadow: 0px 1px 65px -2px rgba(71,65,71,0.64);
-}
-
-body {
-	background-color:#B0C4DE;
-}
-
-h1 {	
-	color: #5C5C5C;
-	font-weight: lighter;
-	font-size:20px;
-	text-align:center;
-	font-family:sans-serif;
-	padding-top:50px;
-}
-
-label {
-	color:#5C5C5C;
-	font-weight:lighter;
-	font-size:15px;
-	font-family:sans-serif;
-
-}
-
 input.form-control {
-	width:80%;
-	border:none;
+	border:solid 1px;
 	border-color:#C0C0C0;
-	font-size:15px;
+	font-size:13px;
 	font-weight:lighter;
 	font-family:sans-serif;
 	height:40px;
+	margin: auto;
+	width:75%;
 }
 
-.btn {
-    border: 0 none;
-    height:40px;
-	width:100%;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background: #0099cc;
-    color: #ffffff;
+.home_jumbotron {
+  font-weight:lighter;
+  font-family:sans-serif;
+  padding-top:50px;
+  background-color:#7887AB;
+  height:300px;
+  color: #ffffff;
 }
 
-/* hovering, focus, or active state background color*/
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-	background: #33a6cc;
+.signup_jumbotron {
+  font-weight:lighter;
+  font-family:sans-serif;
+  padding-top:50px;
+  
+  background-color:#7887AB;
+  height:700px;	  
 }
 
-/*
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+.signup {
+	background:#ffffff;
+	padding: 10px 10px 10px 10px;
+	border-radius:10px;
+	text-align: center;
+	margin:inherit;
+	margin-top:20px;
+	width:70%;
 }
- 
-, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    
+
+.signup h2 {
+	color:#46506B;
 }
- 
-.btn-primary:active, .btn-primary.active {
-    background: #007299;
-    box-shadow: none;
-}*/
 
+.row {
+	padding-bottom:15px;
+}
 
-
-
-
-
-
-
+footer {
+  padding-top:25px;
+  height: 60%;
+}

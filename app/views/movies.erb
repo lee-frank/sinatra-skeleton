@@ -1,8 +1,13 @@
-<h1>Here are the movies</h1>
-<ul>
-<li>Hi hi hi hi</li>jj
-<li>byebyebyeey</li>
-</ul>
+<h1>Create a movie</h1>
+<form method="post" action="/movies/create">
+  <label for="title">Title</label>
+  <input type="text" name="title" id="title" />
 
-<!-- need these brackets to indicate ruby code -->
-<% 5 * 5 %>
+  <label for="title">Director</label>
+  <input type="text" name="director" id="director" />
+
+  <label for="title">Poster URL</label>
+  <input type="text" name="image_url" id="image_url" />
+
+  <button type="submit" class="btn btn-primary">SUBMIT</button>
+</form>
